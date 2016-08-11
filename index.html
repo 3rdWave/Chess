@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+		
+			
+		<link type="text/css" rel="stylesheet" href="resources\css\index.css">
+		<script  src="resources\js\index.js"> </script>
+		<title>CHESS</title>
+	
+</head>
+	
+	
+	
+	
+	
+<body>
+
+	
+<!-- Name of the game -->	
+	<h1>CHESS</h1>
+					
+			
+<!-- establish names of players-->
+	<div class="playerNames">
+		<h3>Please enter your names:
+		</h3>
+		
+		
+	<!-- PLAYER 1 (WHITE)-->
+		<h4 >
+			<img id="player1" src="resources/images/horseWhite.png"/>
+			</br>
+			<input type="textbox" name="player1" value="White">
+		</h4>
+
+		</br>
+				
+	<!-- PLAYER 2 (BLACK)-->	
+		<h4>
+			<img id="player2" src="resources/images/horseBlack.png"/>
+			</br>
+			<input type="textbox" name="player1" value="Black">
+		</h4>
+
+		</br>
+		</br>
+		</br>
+		</br>
+		
+	<!-- Confirm button -->	
+		<button class="buttonStyle" type="button" <script>onclick="confirmNames()"</script>Confirm names</button>
+	</div>
+		
+	  
+	  
+<!-- create chessboard layout a background using a table. 
+			Using table headers for coordinate elements.-->
+			
+	<div class="chessBoard">
+
+		<table id="chessBoardTable" align="center" border=1px>
+			
+			<tr id="chessBoardLetters">
+				<th>
+				</th>
+				
+				<th>
+					A
+				</th>
+				
+				<th>
+					B
+				</th>
+				
+				<th>
+					C
+				</th>
+				
+				<th>
+					D
+				</th>
+				
+				<th>
+					E
+				</th>
+				
+				<th>
+					F
+				</th>
+				
+				<th>
+					G
+				</th>
+				
+				<th>
+					H
+				</th>
+			</tr>
+			
+			<tr id="chessBoardRow8">
+				<th id="chessBoardNumbers">
+					8
+				</th>
+				
+				<td class="whiteSquare" id="a8">
+				
+				</td>
+				
+				<td class="blackSquare" id="a7" onclick="highlightSquare()">
+					
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="bishopBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="queenBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="kingBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="bishopBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="horseBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="rookBlack.png"/>
+				</td>
+			</tr>
+			 
+			<tr id="chessBoardRow7">
+				 <th id="chessBoardNumbers">
+					7
+				 </th>
+				 
+				<td class="blackSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnBlack.png"/>
+				</td>
+			</tr>
+			
+			<tr id="chessBoardRow6">
+				<th id="chessBoardNumbers">
+					6
+				</th>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare"></td>
+			</tr>
+			
+			<tr id="chessBoardRow5">
+				<th id="chessBoardNumbers">
+					5
+				</th>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+			</tr>
+			
+			<tr id="chessBoardRow4">
+				<th id="chessBoardNumbers">4</th>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+			</tr>
+			
+			<tr id="chessBoardRow3">
+				<th id="chessBoardNumbers">
+					3
+				</th>
+			
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+				
+				<td class="blackSquare">
+				</td>
+				
+				<td class="whiteSquare">
+				</td>
+			</tr>
+			
+			<tr id="chessBoardRow2">
+				<th id="chessBoardNumbers">
+					2
+				</th>
+			
+				<td class="whiteSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="pawnWhite.png"/>
+				</td>
+			</tr>
+			
+			<tr id="chessBoardRow1">
+				<th id="chessBoardNumbers">
+					1
+				</th>
+				
+				<td class="blackSquare"><img src="rookWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="horseWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="bishopWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="queenWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="kingWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="bishopWhite.png"/>
+				</td>
+				
+				<td class="blackSquare">
+					<img src="horseWhite.png"/>
+				</td>
+				
+				<td class="whiteSquare">
+					<img src="rookWhite.png"/>
+				</td>
+			
+			</tr>
+		</table>	
+	</div>
+
+
+<!-- log the moves in a seperate window-->
+
+	<div class="logScreen">
+		<h3>
+		Turns:
+		</h3>
+	
+	
+	
+	</div>
+
+
+<!-- confirm the end of the turn after the move has been selected-->
+
+	<div class="endTurn">	
+		<form name="endCheck">
+			<input class="buttonStyle" type="button" value="End turn" onClick="endOfTurn()" />
+		</form>
+	</div>		
+		
+</body>
+</html>
