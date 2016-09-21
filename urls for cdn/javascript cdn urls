@@ -1,0 +1,13 @@
+// cdnjs (Content Delivery Network voor Javascript script libraries)
+
+// front-end for nodeJS 'VueJS'
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+
+// html preprocessor 'jade'
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.min.js"></script>
+
+// CSS preprocessor 'stylus'
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stylus/0.32.1/stylus.min.js"></script>
+
+// Clientside Framework HTML/Javascript AngularJS
+<script scr="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>

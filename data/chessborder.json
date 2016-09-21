@@ -1,0 +1,104 @@
+db.chessborder.insert([
+{
+"name": "emptyCorner",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "A",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "B",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "C",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "D",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "E",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "F",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "G",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "H",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "1",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "2",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "3",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "4",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "5",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "6",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "7",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+},
+{
+"name": "8",
+"color": "grey",
+"occupied": false,
+"withinBorder": false
+}
+])

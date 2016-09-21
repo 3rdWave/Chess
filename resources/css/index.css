@@ -1,5 +1,6 @@
 h1 {
 	text-align: center;
+	font-size: 56px;
 }
 
 
@@ -11,12 +12,11 @@ h1 {
 }
 
 .chessBoard{
-	position:absolute;
 	top:100px;
 	left:32%;
 	display:inline;
-	margin-left:relative;
-	margin-right:relative;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .logScreen{
@@ -25,21 +25,21 @@ h1 {
 	right:15%;
 	display:inline;
 	margin-left:relative;
-	margin-right:relative;	
+	margin-right:relative;
 }
-			
+
 .endTurn{
 	position:absolute;
 	top:75%;
 	right:15%;
 	display:inline;
 	margin-left:relative;
-	margin-right:relative;	
-}			
-			
+	margin-right:relative;
+}
+
 /*button design */
 .buttonStyle
-{ 
+{
 display:inline-block;
 background:#F5B53E;
 color:#444444;
@@ -48,20 +48,43 @@ border-radius:7px ;
 font-size:23px ;
 width: 244px ;
 padding: 14px 14px 14px 14px ;
-box-shadow: 0px 3px 1px #A39494; 
--webkit-box-shadow: 0px 3px 1px #A39494; 
--moz-box-shadow: 0px 3px 1px #A39494; 
+box-shadow: 0px 3px 1px #A39494;
+-webkit-box-shadow: 0px 3px 1px #A39494;
+-moz-box-shadow: 0px 3px 1px #A39494;
 cursor:pointer;
 font-family:'Gotham A', Gotham B, Verdana;
 font-weight:bold;
 text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
 }
-			
-			
+
+
 /* table layout, background colors and dimensions*/
 
-table, th, td {
-    border: 1px solid black;
+table, tr, th, td {
+  border-right: 3px solid black;
+	border-bottom: 3px solid dimgray;
+	border-left: 3px solid lightgray;
+	border-top: 3px solid white;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+tr, th {
+  border-right: none;
+	border-bottom: none;
+	border-left: none;
+	border-top: none;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.clickedId{
+	background-color: #EE00DD;
+}
+
+td, th {
+	height: 60px;
+	width: 60px;
 }
 
 /*table{
@@ -70,18 +93,8 @@ table, th, td {
 */
 
 
-th{
-	height: 30px;
-	width: 30px;
-}
 
-tr{
-	height:60px;
-}
 
-td{
-	width:60px;
-}
 
 
 
@@ -89,13 +102,39 @@ td{
 /*hightlights square when hovering over it with the mouse*/
 td:hover {
 	background-color: #d5d5d5;
-	opacity:0.7;
+	opacity:0.3;
 }
 
+.item__title {
+			position: absolute;
+			text-shadow: 0px 2px 3px #666;
+			bottom:0;
+			margin: 0;
+			padding: 1em;
+			padding-left:1em;
+			padding-right:50%;
+			color: black;
+			font-size: 1.85em;
+			font-family: Raleway, Verdana, serif;
+			text-decoration:none;
+			line-height: 2;
+			opacity:0;
+			transition: transform 0.3s, opacity 0.3s;
+		}
+
+		.selectSquare {
+			color: black;/*#dbdbdb;*/
+			opacity:0;
+			transition: transform 0.3s, opacity 0.3s;
+		}
+
+		.select:hover .selectSquare {
+			opacity: 1;
+			background: #f2f2f2;
+			transform: translate3d(-2px, 50px, 0)
+		}
 
 
-
-/* to distinguish black and white squares*/
 .blackSquare{
 	background-color:#808080;
 }

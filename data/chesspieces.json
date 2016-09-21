@@ -1,0 +1,290 @@
+db.chesspieces.insert([
+{
+"name": "whiteRookA1",
+"position": "A1",
+"type": "rook",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/rookWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteKnightB1",
+"position": "B1",
+"type": "knight",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/knightWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteBishopC1",
+"position": "C1",
+"type": "bishop",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/bishopWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteQueenD1",
+"position": "D1",
+"type": "queen",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/queenWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteQueenE1",
+"position": "E1",
+"type": "queen",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/kingWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteBishopF1",
+"position": "F1",
+"type": "bishop",
+"color": "white",
+"number": 2,
+"image": "<img src='resources/images/bishopWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteKnightG1",
+"position": "G1",
+"type": "knight",
+"color": "white",
+"number": 2,
+"image": "<img src='resources/images/knightWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whiteRookH1",
+"position": "H1",
+"type": "rook",
+"color": "white",
+"number": 2,
+"image": "<img src='resources/images/rookWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnA2",
+"position": "A2",
+"type": "pawn",
+"color": "white",
+"number": 1,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnB2",
+"position": "B2",
+"type": "pawn",
+"color": "white",
+"number": 2,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnC2",
+"position": "C2",
+"type": "pawn",
+"color": "white",
+"number": 3,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnD2",
+"position": "D2",
+"type": "pawn",
+"color": "white",
+"number": 4,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnE2",
+"position": "E2",
+"type": "pawn",
+"color": "white",
+"number": 5,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnF2",
+"position": "F2",
+"type": "pawn",
+"color": "white",
+"number": 6,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnG2",
+"position": "G2",
+"type": "pawn",
+"color": "white",
+"number": 7,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "whitePawnH2",
+"position": "H2",
+"type": "pawn",
+"color": "white",
+"number": 8,
+"image": "<img src='resources/images/pawnWhite.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackRookA8",
+"position": "A8",
+"type": "rook",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/rookBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackKnightB8",
+"position": "B8",
+"type": "knight",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/knightBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackBishopC8",
+"position": "C8",
+"type": "bishop",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/bishopBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackQueenD8",
+"position": "D8",
+"type": "queen",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/queenBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackKingE8",
+"position": "E8",
+"type": "queen",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/kingBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackBishopF8",
+"position": "F8",
+"type": "bishop",
+"color": "black",
+"number": 2,
+"image": "<img src='resources/images/bishopBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackKnightG8",
+"position": "G8",
+"type": "knight",
+"color": "black",
+"number": 2,
+"image": "<img src='resources/images/knightBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackRookH8",
+"position": "H8",
+"type": "rook",
+"color": "black",
+"number": 2,
+"image": "<img src='resources/images/rookBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnA7",
+"position": "A7",
+"type": "pawn",
+"color": "black",
+"number": 1,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnB7",
+"position": "B7",
+"type": "pawn",
+"color": "black",
+"number": 2,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnC7",
+"position": "C7",
+"type": "pawn",
+"color": "black",
+"number": 3,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnD7",
+"position": "D7",
+"type": "pawn",
+"color": "black",
+"number": 4,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnE7",
+"position": "E7",
+"type": "pawn",
+"color": "black",
+"number": 5,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnF7",
+"position": "F7",
+"type": "pawn",
+"color": "black",
+"number": 6,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnG7",
+"position": "G7",
+"type": "pawn",
+"color": "black",
+"number": 7,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+},
+{
+"name": "blackPawnH7",
+"position": "H7",
+"type": "pawn",
+"color": "black",
+"number": 8,
+"image": "<img src='resources/images/pawnBlack.png'/>",
+"hasmoved": false
+}
+])

@@ -1,0 +1,578 @@
+db.chessboard.insert([
+{
+"name": "A1",
+"letterloc": "A",
+"numberloc": 1,
+"color": "black",
+"occupied": true,
+"occupiedby": "whiteRookA1",
+"withinborder": true
+},
+{
+"name": "B1",
+"letterloc": "B",
+"numberloc": 1,
+"color": "white",
+"occupied": true,
+"occupiedby": "whiteKnightB1",
+"withinborder": true
+},
+{
+"name": "C1",
+"letterloc": "C",
+"numberloc": 1,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D1",
+"letterloc": "D",
+"numberloc": 1,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E1",
+"letterloc": "E",
+"numberloc": 1,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F1",
+"letterloc": "F",
+"numberloc": 1,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G1",
+"letterloc": "G",
+"numberloc": 1,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H1",
+"letterloc": "H",
+"numberloc": 1,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A2",
+"letterloc": "A",
+"numberloc": 2,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B2",
+"letterloc": "B",
+"numberloc": 2,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C2",
+"letterloc": "C",
+"numberloc": 2,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D2",
+"letterloc": "D",
+"numberloc": 2,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E2",
+"letterloc": "E",
+"numberloc": 2,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F2",
+"letterloc": "F",
+"numberloc": 2,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G2",
+"letterloc": "G",
+"numberloc": 2,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H2",
+"letterloc": "H",
+"numberloc": 2,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A3",
+"letterloc": "A",
+"numberloc": 3,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B3",
+"letterloc": "B",
+"numberloc": 3,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C3",
+"letterloc": "C",
+"numberloc": 3,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D3",
+"letterloc": "D",
+"numberloc": 3,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E3",
+"letterloc": "E",
+"numberloc": 3,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F3",
+"letterloc": "F",
+"numberloc": 3,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G3",
+"letterloc": "G",
+"numberloc": 3,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H3",
+"letterloc": "H",
+"numberloc": 3,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A4",
+"letterloc": "A",
+"numberloc": 4,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B4",
+"letterloc": "B",
+"numberloc": 4,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C4",
+"letterloc": "C",
+"numberloc": 4,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D4",
+"letterloc": "D",
+"numberloc": 4,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E4",
+"letterloc": "E",
+"numberloc": 4,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F4",
+"letterloc": "F",
+"numberloc": 4,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G4",
+"letterloc": "G",
+"numberloc": 4,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H4",
+"letterloc": "H",
+"numberloc": 4,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A5",
+"letterloc": "A",
+"numberloc": 5,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B5",
+"letterloc": "B",
+"numberloc": 5,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C5",
+"letterloc": "C",
+"numberloc": 5,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D5",
+"letterloc": "D",
+"numberloc": 5,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E5",
+"letterloc": "E",
+"numberloc": 5,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F5",
+"letterloc": "F",
+"numberloc": 5,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G5",
+"letterloc": "G",
+"numberloc": 5,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H5",
+"letterloc": "H",
+"numberloc": 5,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A6",
+"letterloc": "A",
+"numberloc": 6,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B6",
+"letterloc": "B",
+"numberloc": 6,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C6",
+"letterloc": "C",
+"numberloc": 6,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D6",
+"letterloc": "D",
+"numberloc": 6,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E6",
+"letterloc": "E",
+"numberloc": 6,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F6",
+"letterloc": "F",
+"numberloc": 6,
+"color": "black",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G6",
+"letterloc": "G",
+"numberloc": 6,
+"color": "white",
+"occupied": false,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H6",
+"letterloc": "H",
+"numberloc": 6,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A7",
+"letterloc": "A",
+"numberloc": 7,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B7",
+"letterloc": "B",
+"numberloc": 7,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C7",
+"letterloc": "C",
+"numberloc": 7,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D7",
+"letterloc": "D",
+"numberloc": 7,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E7",
+"letterloc": "E",
+"numberloc": 7,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F7",
+"letterloc": "F",
+"numberloc": 7,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G7",
+"letterloc": "G",
+"numberloc": 7,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H7",
+"letterloc": "H",
+"numberloc": 7,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "A8",
+"letterloc": "A",
+"numberloc": 8,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "B8",
+"letterloc": "B",
+"numberloc": 8,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "C8",
+"letterloc": "C",
+"numberloc": 8,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "D8",
+"letterloc": "D",
+"numberloc": 8,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "E8",
+"letterloc": "E",
+"numberloc": 8,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "F8",
+"letterloc": "F",
+"numberloc": 8,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "G8",
+"letterloc": "G",
+"numberloc": 8,
+"color": "white",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+},
+{
+"name": "H8",
+"letterloc": "H",
+"numberloc": 8,
+"color": "black",
+"occupied": true,
+"occupiedby": "",
+"withinborder": true
+}
+])
